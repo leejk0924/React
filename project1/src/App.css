@@ -1,38 +1,14 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  max-width: 500px;
+  width: 100%;
+  margin: 10px auto;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px solid gray;
+  /*페이지의 요소를 브라우저에 어떻게 보여줄지 결정하는 속성, (기본값은 block, flex는 요소를 수평으로 배치하며 적용한 요소를 플렉스 컨테이너라고 한다.)*/
   display: flex;
+  /*플렉스 컨테이너의 요소들의 배치방향 조절*/
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  /*App 컴포넌트의 자식 요소 간의 여백 조절*/
+  gap: 30px;
 }
