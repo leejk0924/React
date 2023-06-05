@@ -1,0 +1,31 @@
+.TodoEditor .editor_wrapper{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+.TodoEditor input{
+    /*flex 를 1로 설정하면 해당 요소의 너비가 브라우저의 크기에 따라 유연하게 늘어나고 줄어든다.*/
+    flex: 1;
+    box-sizing: border-box;
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 5px;
+    padding: 15px;
+}
+.TodoEditor input:focus {
+    /*outline 속성을 none으로 설정하면 입력 폼을 클릭했을 때 두꺼운 경계선이 생기지 않는다.*/
+    outline: none;
+    border: 1px solid springgreen;
+}
+.TodoEditor button {
+    /* cursor 속성을 pointer로 설정하면 버튼에 마우스 포인터를 올릴 때 모양이 손 모양으로 바뀐다.*/
+    cursor: pointer;
+    width: 80px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+
