@@ -4,7 +4,7 @@
   margin: 10px auto;
   box-sizing: border-box;
   padding: 20px;
-  border: 1px solid gray;
+  /*border: 1px solid gray;*/
   /*페이지의 요소를 브라우저에 어떻게 보여줄지 결정하는 속성, (기본값은 block, flex는 요소를 수평으로 배치하며 적용한 요소를 플렉스 컨테이너라고 한다.)*/
   display: flex;
   /*플렉스 컨테이너의 요소들의 배치방향 조절*/
